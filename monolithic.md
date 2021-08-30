@@ -21,8 +21,8 @@ alert RDS cpu usage goes more than 5% - email test
 Taksks 
 
 Create the repos in your branch
-- [ ] appdemo --main / develop / stage/ preprod / prod - Protected ---index.html
-- [ ] apidemo --main / develop / stage/ preprod / prod - Protected----helloworld.py- flask
+- [x] appdemo --main / develop / stage/ preprod / prod - Protected ---index.html
+- [x] apidemo --main / develop / stage/ preprod / prod - Protected----helloworld.py- flask
 
 - [ ] create the 4 vpcs 
       - [ ] dev -10.1 - bastion---rds--jenkins
@@ -61,7 +61,7 @@ day-1
 - [x] create the bastion in :dev-bastion
 - [x] create the jenkins :dev-jenkins
 - [ ] create the react/api : dev-app, dev-api
-- [ ] create the rds - dev-rds , dbname: dev_api , username: dev_apiuser
+- [x] create the rds - dev-rds , dbname: dev_api , username: dev_apiuser
 - [ ] create the 3 alb , 
       * jenkins-alb 
       * app-alb 
@@ -70,7 +70,7 @@ day-1
 
 
 #### CICD:
-- [ ] - create jenkins pipeline job for the : dev-appdeploy : /opt/app
+- [x] - create jenkins pipeline job for the : dev-appdeploy : /opt/app
 - [ ] create the jenkins pipeline job for the: dev-apideploy : /opt/api
 
 ### validatoin:
@@ -87,5 +87,5 @@ test.py : ls -ltr /opt/api
 
 #### Observability:
 - [ ] Grafana , Prometheus - ec2 - check instances - 3
-- [ ] Kibana, ElasticSearch - Ec2 - check kibana url 
+- [x] Kibana, ElasticSearch - Ec2 - check kibana url 
 
